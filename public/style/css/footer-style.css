@@ -1,0 +1,39 @@
+:root{
+    --bleu: #003466;
+    --orange: #f84e01;
+    --font-section : #d6e4f2;
+    --cards: #8cb9c2;
+    --white: #fff;
+    --solei: #efd636 ; 
+    --orangesolei: #f49e1e;
+}
+
+footer .form-conteneur {
+   display: flex;
+   flex-wrap: wrap-reverse;
+   justify-content: space-between;
+   margin-top: 20px;
+}
+.fs-2, .text-coordonnee>p:nth-child(2), .text-coordonnee>p:nth-child(4){
+    color: var(--orange);
+}
+.text-coordonnee>p:nth-child(4)>a:hover{
+    color: var(--bleu);
+}
+footer .form-conteneur .form-cordonner{
+    width: 500px;
+    margin-right: 7px;
+    
+}
+footer .container p{
+    font-weight: 500;
+    text-align: justify;
+    color: #776f6f;
+}
+footer .container{
+    margin-top: 10px;
+}
+footer .envoyer {
+    margin-bottom: 15px;
+
+}

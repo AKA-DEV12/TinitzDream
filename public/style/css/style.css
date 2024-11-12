@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+:root{
+    --bleu: #003466;
+    --orange: #f84e01;
+    --font-section : #d6e4f2;
+    --cards: #8cb9c2;
+    --white: #fff;
+    --solei: #efd636 ; 
+    --orangesolei: #f49e1e;
+}
+
+*{
+    font-family: 'Poppins' !important;
+}
+.effect {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.effect.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+.effectH {
+    opacity: 0;
+    transform: translateX(20px);
+    transition: opacity 0.9s ease, transform 0.5s ease;
+}
+
+.effectH.visible {
+    opacity: 1;
+    transform: translateX(0);
+}
+/*************************Image de font de chaque ccard *******************/
+
+section .PP .porte .backImg {
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+   
+    padding: 20px; 
+    border-radius: 10px;
+    backdrop-filter: blur(10px); 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
+}
+
+/* Images d'arrière-plan pour chaque élément */
+section .PP .porte .backImg:nth-child(1) {
+    background-image: url('assets/controleHome_(1).jpg'); 
+}
+section .PP .porte .backImg:nth-child(2) {
+    background-image: url('assets/controleHome_(2).JPG'); 
+}
+section .PP .porte .backImg:nth-child(3) {
+    background-image: url('assets/controleHome_(3).jpg'); 
+}
+
+section .PP .porte .backImg:nth-child(4) {
+    background-image: url('assets/controleHome_(4).jpg'); 
+}
+
+section .PP .porte .backImg:nth-child(5) {
+    background-image: url('assets/controleHome_(5).jpg'); 
+}
+
+section .PP .porte .backImg:nth-child(6) {
+    background-image: url('assets/controleHome_(6).jpg'); 
+}
+
+.demande-D-I button:nth-child(1){
+    background: var(--bleu);
+}
+.demande-D-I button:nth-child(2){
+    background: var(--orange);
+}
+
+@media (min-width: 375px) and (max-width: 812px) {
+    .mt-custom {
+        margin-top: 230px !important;
+        background: var( --font-section);
+        padding-bottom: 50px;
+    }.mt-custom-text{
+        font-size: 1.25rem !important;
+    }
+}
+

@@ -1,0 +1,41 @@
+:root{
+    --bleu: #003466;
+    --orange: #f84e01;
+    --font-section : #d6e4f2;
+    --cards: #8cb9c2;
+    --white: #fff;
+    --solei: #efd636 ; 
+    --orangesolei: #f49e1e;
+}
+*{
+    transition: 0.8s ease-in;
+}
+.reseau1{
+    position: fixed; 
+    right: 30px;     
+    top: 50%;        
+    transform: translateY(-50%); 
+    z-index: 1000;  
+    border: 2px solid var(--orange);
+    padding: 7px;
+    border-radius: 20px;
+    z-index: 1000;  
+}
+
+.reseau-card {
+    display: flex;
+    flex-direction: column; 
+    gap: 7px;              
+}
+.reseau-item a svg{
+    font-size: 25px;       
+    color: var(--orange) !important;        
+    transition: color 0.3s ease; 
+}
+
+.reseau-item a svg:focus {
+    opacity: 0.5;
+}
+
+
+
